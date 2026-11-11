@@ -53,8 +53,8 @@ def get_dax():
         if tc and nc and 35 <= len(t) <= 45:
             out = []
             for s, n in zip(t[tc], t[nc]):
-                s = str(s).strip().upper()
-                s = s if s.endswith(".DE") else f"{s}.DE"
+                s = str(s).strip().upper().split(".")[0]  # z. B. "AIR.PA" -> Xetra "AIR.DE"
+                s = f"{s}.DE"
                 out.append({"symbol": s, "name": str(n).strip()})
             return out
     raise RuntimeError("DAX-Tabelle nicht gefunden")
