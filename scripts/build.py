@@ -153,7 +153,9 @@ def latest_quote(sym):
         md = t.history_metadata or {}
         price, ts, tz = md.get("regularMarketPrice"), md.get("regularMarketTime"), md.get("exchangeTimezoneName")
         if price and ts:
-            when = dt.datetime.fromtimestamp(ts, ZoneInfo(tz or "UTC"))
+            when = (pd.Timestamp(ts, unit="s", tz="UTC") if isinstance(ts, (int, float))
+                    else pd.Timestamp(ts))
+            when = (when.tz_localize("UTC") if when.tzinfo is None else when).tz_convert(tz or "UTC")
             return sym, float(price), when
     except Exception as e:
         print(f"[{sym}] Nachtrag fehlgeschlagen: {e}", file=sys.stderr)

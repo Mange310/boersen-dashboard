@@ -1,4 +1,4 @@
-import json, datetime as dt, yfinance as yf
+import json, datetime as dt, yfinance as yf, pandas as pd
 from zoneinfo import ZoneInfo
 out = {}
 for base in ["SAP", "SIE", "ALV", "IFX"]:
@@ -8,7 +8,7 @@ for base in ["SAP", "SIE", "ALV", "IFX"]:
             t = yf.Ticker(s); h = t.history(period="10d"); md = t.history_metadata or {}
             ts = md.get("regularMarketTime")
             out[s] = {"last_bar": str(h.index[-1].date()) if len(h) else None,
-                      "rmt": dt.datetime.fromtimestamp(ts, ZoneInfo("Europe/Berlin")).isoformat() if ts else None,
+                      "rmt": pd.Timestamp(ts, unit="s", tz="UTC").tz_convert("Europe/Berlin").isoformat() if isinstance(ts,(int,float)) else (pd.Timestamp(ts).tz_convert("Europe/Berlin").isoformat() if ts is not None else None),
                       "price": md.get("regularMarketPrice"), "vol_last": int(h["Volume"].iloc[-1]) if len(h) else None}
         except Exception as e:
             out[s] = {"err": str(e)[:120]}
