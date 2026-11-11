@@ -5,6 +5,9 @@ on:
     # Mo–Fr 04:40 UTC = 05:40 MEZ / 06:40 MESZ (GitHub startet oft etwas später)
     - cron: "40 4 * * 1-5"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/**", "requirements.txt"]
 
 permissions:
   contents: write
