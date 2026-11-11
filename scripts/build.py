@@ -6,6 +6,7 @@ import json
 import pathlib
 import re
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from zoneinfo import ZoneInfo
 
 import pandas as pd
@@ -144,6 +145,40 @@ def download_closes(symbols):
     return closes
 
 
+def latest_quote(sym):
+    """Letzter regulärer Schlusskurs samt Datum aus den Yahoo-Metadaten."""
+    try:
+        t = yf.Ticker(sym)
+        t.history(period="5d", interval="1d")
+        md = t.history_metadata or {}
+        price, ts, tz = md.get("regularMarketPrice"), md.get("regularMarketTime"), md.get("exchangeTimezoneName")
+        if price and ts:
+            when = dt.datetime.fromtimestamp(ts, ZoneInfo(tz or "UTC"))
+            return sym, float(price), when
+    except Exception as e:
+        print(f"[{sym}] Nachtrag fehlgeschlagen: {e}", file=sys.stderr)
+    return sym, None, None
+
+
+def fill_missing_session(closes, d0, today, session_open):
+    """Ergänzt den letzten Handelstag, wenn Yahoo ihn noch nicht in der Tageshistorie führt."""
+    probe = latest_quote(next(iter(closes)))
+    if not probe[2] or pd.Timestamp(probe[2].date()) <= d0:
+        return 0
+    with ThreadPoolExecutor(8) as ex:
+        quotes = list(ex.map(latest_quote, list(closes)))
+    added = 0
+    for sym, price, when in quotes:
+        if not price:
+            continue
+        day = pd.Timestamp(when.date())
+        if day <= d0 or (day == today and session_open):
+            continue
+        closes[sym] = pd.concat([closes[sym][closes[sym].index < day], pd.Series([price], index=[day])])
+        added += 1
+    return added
+
+
 def compute_market(key, members):
     cfg = MARKETS[key]
     names = {m["symbol"]: m["name"] for m in members}
@@ -162,8 +197,14 @@ def compute_market(key, members):
         days = days[days < today]
     if len(days) < 2:
         return {"error": "Zu wenige Handelstage"}
+    filled = fill_missing_session(closes, days[-1], today, session_open)
+    if filled >= 0.5 * len(closes):
+        counts = pd.Series(pd.concat([s.index.to_series() for s in closes.values()])).value_counts()
+        days = counts[counts >= 0.5 * len(closes)].index.sort_values()
+        if session_open:
+            days = days[days < today]
     d0 = days[-1]
-    diag = {"now_local": now.isoformat(timespec="minutes"), "session_open": session_open,
+    diag = {"now_local": now.isoformat(timespec="minutes"), "session_open": session_open, "filled": filled,
             "last_days": {d.date().isoformat(): int(counts[d]) for d in counts.sort_index().index[-5:]}}
     refs = {
         "d1": days[-2],
