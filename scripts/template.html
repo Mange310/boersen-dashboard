@@ -44,6 +44,9 @@ li:first-child{border-top:0}
 .rk{color:var(--muted);font:500 12px "IBM Plex Mono",monospace}
 .nm{min-width:0}
 .nm b{display:block;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nm a{color:inherit;text-decoration:none}
+.nm a:hover b{text-decoration:underline}
+.ext{color:var(--muted);font-size:11px}
 .nm i{font-style:normal;color:var(--muted);font-size:12px}
 .bar{height:8px;border-radius:4px;background:var(--line);overflow:hidden}
 .bar div{height:100%;border-radius:4px}
@@ -64,7 +67,7 @@ footer{color:var(--muted);font-size:12px;margin-top:30px;border-top:1px solid va
   </header>
   <nav class="tabs" role="tablist" id="tabs"></nav>
   <main id="view"></main>
-  <footer>Kursdaten: Yahoo Finance (Schlusskurse, um Splits und Dividenden bereinigt) · Indexzusammensetzung: Wikipedia.
+  <footer>Ein Klick auf einen Namen öffnet die Detailseite mit Chart, Kennzahlen und Nachrichten bei Yahoo Finance. Kursdaten: Yahoo Finance (Schlusskurse, um Splits und Dividenden bereinigt) · Indexzusammensetzung: Wikipedia.
     Vortag = letzter Handelstag gegen den davor; 1 Woche und 1 Monat = Veränderung seit dem letzten Schlusskurs vor 7 Tagen bzw. 1 Monat.
     Keine Anlageberatung.</footer>
 </div>
@@ -83,7 +86,7 @@ function list(rows, kind, cur) {
     const price = r.price.toLocaleString("de-DE",{minimumFractionDigits:2,maximumFractionDigits:2});
     return `<li class="${cls}" title="${esc(r.name)} · ${price} ${cur}">
       <span class="rk">${i + 1}</span>
-      <span class="nm"><b>${esc(r.name)}</b><i>${esc(r.symbol)} · ${price} ${cur}</i></span>
+      <span class="nm"><a href="https://finance.yahoo.com/quote/${encodeURIComponent(r.symbol)}" target="_blank" rel="noopener" title="Details bei Yahoo Finance öffnen"><b>${esc(r.name)} <span class="ext">↗</span></b></a><i>${esc(r.symbol)} · ${price} ${cur}</i></span>
       <span class="bar"><div style="width:${w}%"></div></span>
       <span class="pct">${fmtPct(r.pct)}</span></li>`;
   }).join("") + "</ol>";

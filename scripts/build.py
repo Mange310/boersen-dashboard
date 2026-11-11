@@ -163,6 +163,8 @@ def compute_market(key, members):
     if len(days) < 2:
         return {"error": "Zu wenige Handelstage"}
     d0 = days[-1]
+    diag = {"now_local": now.isoformat(timespec="minutes"), "session_open": session_open,
+            "last_days": {d.date().isoformat(): int(counts[d]) for d in counts.sort_index().index[-5:]}}
     refs = {
         "d1": days[-2],
         "w1": days[days <= d0 - pd.Timedelta(days=7)].max(),
@@ -197,7 +199,7 @@ def compute_market(key, members):
             "count": len(rows),
         }
     return {"asof": d0.date().isoformat(), "members": len(members),
-            "priced": len(closes), "periods": periods}
+            "priced": len(closes), "periods": periods, "diag": diag}
 
 
 def main():
@@ -214,6 +216,7 @@ def main():
 
     SITE.mkdir(exist_ok=True)
     (SITE / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1))
+    (ROOT / "data" / "latest.json").write_text(json.dumps(data, ensure_ascii=False, indent=1))
     template = (ROOT / "scripts" / "template.html").read_text()
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     (SITE / "index.html").write_text(template.replace("/*__DATA__*/null", payload))
