@@ -1,412 +1,412 @@
 {
- "generated": "2026-11-11T07:44+01:00",
+ "generated": "2026-11-11T07:49+01:00",
  "markets": {
   "de": {
-   "asof": "2026-11-09",
+   "asof": "2026-11-10",
    "members": 40,
-   "priced": 40,
+   "priced": 39,
    "periods": {
     "d1": {
      "label": "Vortag",
-     "from": "2026-11-06",
-     "to": "2026-11-09",
+     "from": "2026-11-09",
+     "to": "2026-11-10",
      "gainers": [
       {
-       "symbol": "IFX.DE",
-       "name": "Infineon Technologies",
-       "pct": 6.27,
-       "price": 48.62
+       "symbol": "HEN3.DE",
+       "name": "Henkel",
+       "pct": 4.37,
+       "price": 87.36
       },
       {
-       "symbol": "ENR.DE",
-       "name": "Siemens Energy",
-       "pct": 5.08,
-       "price": 124.1
-      },
-      {
-       "symbol": "AIR.DE",
-       "name": "Airbus",
-       "pct": 4.96,
-       "price": 206.1
-      },
-      {
-       "symbol": "RHM.DE",
-       "name": "Rheinmetall",
-       "pct": 4.02,
-       "price": 845.4
-      },
-      {
-       "symbol": "CBK.DE",
-       "name": "Commerzbank",
-       "pct": 3.9,
-       "price": 39.7
-      },
-      {
-       "symbol": "HEI.DE",
-       "name": "Heidelberg Materials",
-       "pct": 3.65,
-       "price": 180.15
+       "symbol": "ZAL.DE",
+       "name": "Zalando",
+       "pct": 3.03,
+       "price": 28.24
       },
       {
        "symbol": "DTG.DE",
        "name": "Daimler Truck",
-       "pct": 3.16,
-       "price": 41.77
+       "pct": 2.39,
+       "price": 42.77
       },
       {
-       "symbol": "CON.DE",
-       "name": "Continental",
-       "pct": 3.07,
-       "price": 72.5
-      },
-      {
-       "symbol": "G1A.DE",
-       "name": "GEA Group",
-       "pct": 3.03,
-       "price": 71.45
+       "symbol": "HNR1.DE",
+       "name": "Hannover Re",
+       "pct": 2.35,
+       "price": 295.8
       },
       {
        "symbol": "DBK.DE",
        "name": "Deutsche Bank",
-       "pct": 2.87,
-       "price": 32.47
-      }
-     ],
-     "losers": [
-      {
-       "symbol": "SHL.DE",
-       "name": "Siemens Healthineers",
-       "pct": -3.36,
-       "price": 43.16
+       "pct": 2.0,
+       "price": 33.12
       },
       {
-       "symbol": "FME.DE",
-       "name": "Fresenius Medical Care",
-       "pct": -2.98,
-       "price": 40.97
-      },
-      {
-       "symbol": "SY1.DE",
-       "name": "Symrise",
-       "pct": -2.06,
-       "price": 94.36
+       "symbol": "FRE.DE",
+       "name": "Fresenius",
+       "pct": 1.93,
+       "price": 53.47
       },
       {
        "symbol": "DB1.DE",
        "name": "Deutsche Börse",
-       "pct": -1.56,
-       "price": 315.0
-      },
-      {
-       "symbol": "HNR1.DE",
-       "name": "Hannover Re",
-       "pct": -1.37,
-       "price": 289.0
-      },
-      {
-       "symbol": "BNR.DE",
-       "name": "Brenntag",
-       "pct": -1.16,
-       "price": 61.18
-      },
-      {
-       "symbol": "BEI.DE",
-       "name": "Beiersdorf",
-       "pct": -1.13,
-       "price": 84.3
-      },
-      {
-       "symbol": "ZAL.DE",
-       "name": "Zalando",
-       "pct": -1.12,
-       "price": 27.41
-      },
-      {
-       "symbol": "BMW.DE",
-       "name": "BMW",
-       "pct": -0.84,
-       "price": 58.86
-      },
-      {
-       "symbol": "BAS.DE",
-       "name": "BASF",
-       "pct": -0.79,
-       "price": 53.85
-      }
-     ],
-     "count": 40
-    },
-    "w1": {
-     "label": "1 Woche",
-     "from": "2026-11-02",
-     "to": "2026-11-09",
-     "gainers": [
-      {
-       "symbol": "HEI.DE",
-       "name": "Heidelberg Materials",
-       "pct": 15.08,
-       "price": 180.15
-      },
-      {
-       "symbol": "BAYN.DE",
-       "name": "Bayer",
-       "pct": 13.19,
-       "price": 56.62
-      },
-      {
-       "symbol": "FRE.DE",
-       "name": "Fresenius",
-       "pct": 7.99,
-       "price": 52.46
-      },
-      {
-       "symbol": "CON.DE",
-       "name": "Continental",
-       "pct": 7.09,
-       "price": 72.5
-      },
-      {
-       "symbol": "DBK.DE",
-       "name": "Deutsche Bank",
-       "pct": 6.13,
-       "price": 32.47
-      },
-      {
-       "symbol": "VNA.DE",
-       "name": "Vonovia",
-       "pct": 5.16,
-       "price": 17.23
-      },
-      {
-       "symbol": "AIR.DE",
-       "name": "Airbus",
-       "pct": 5.06,
-       "price": 206.1
-      },
-      {
-       "symbol": "CBK.DE",
-       "name": "Commerzbank",
-       "pct": 4.5,
-       "price": 39.7
-      },
-      {
-       "symbol": "G1A.DE",
-       "name": "GEA Group",
-       "pct": 4.0,
-       "price": 71.45
-      },
-      {
-       "symbol": "ALV.DE",
-       "name": "Allianz",
-       "pct": 3.77,
-       "price": 457.0
-      }
-     ],
-     "losers": [
-      {
-       "symbol": "RHM.DE",
-       "name": "Rheinmetall",
-       "pct": -15.46,
-       "price": 845.4
-      },
-      {
-       "symbol": "IFX.DE",
-       "name": "Infineon Technologies",
-       "pct": -6.49,
-       "price": 48.62
-      },
-      {
-       "symbol": "ENR.DE",
-       "name": "Siemens Energy",
-       "pct": -4.54,
-       "price": 124.1
-      },
-      {
-       "symbol": "BNR.DE",
-       "name": "Brenntag",
-       "pct": -3.44,
-       "price": 61.18
-      },
-      {
-       "symbol": "DHL.DE",
-       "name": "Deutsche Post",
-       "pct": -0.95,
-       "price": 58.64
-      },
-      {
-       "symbol": "HNR1.DE",
-       "name": "Hannover Re",
-       "pct": -0.76,
-       "price": 289.0
-      },
-      {
-       "symbol": "SHL.DE",
-       "name": "Siemens Healthineers",
-       "pct": -0.55,
-       "price": 43.16
-      },
-      {
-       "symbol": "MRK.DE",
-       "name": "Merck",
-       "pct": -0.53,
-       "price": 149.2
-      },
-      {
-       "symbol": "SY1.DE",
-       "name": "Symrise",
-       "pct": -0.4,
-       "price": 94.36
+       "pct": 1.84,
+       "price": 320.8
       },
       {
        "symbol": "MUV2.DE",
        "name": "Munich Re",
-       "pct": -0.35,
-       "price": 566.0
-      }
-     ],
-     "count": 40
-    },
-    "m1": {
-     "label": "1 Monat",
-     "from": "2026-10-09",
-     "to": "2026-11-09",
-     "gainers": [
-      {
-       "symbol": "BAYN.DE",
-       "name": "Bayer",
-       "pct": 29.36,
-       "price": 56.62
-      },
-      {
-       "symbol": "HEI.DE",
-       "name": "Heidelberg Materials",
-       "pct": 26.6,
-       "price": 180.15
-      },
-      {
-       "symbol": "FRE.DE",
-       "name": "Fresenius",
-       "pct": 23.86,
-       "price": 52.46
-      },
-      {
-       "symbol": "G24.DE",
-       "name": "Scout24",
-       "pct": 22.57,
-       "price": 88.8
-      },
-      {
-       "symbol": "ADS.DE",
-       "name": "Adidas",
-       "pct": 19.09,
-       "price": 178.45
-      },
-      {
-       "symbol": "ZAL.DE",
-       "name": "Zalando",
-       "pct": 15.17,
-       "price": 27.41
-      },
-      {
-       "symbol": "HEN3.DE",
-       "name": "Henkel",
-       "pct": 12.41,
-       "price": 83.7
-      },
-      {
-       "symbol": "QIA.DE",
-       "name": "Qiagen",
-       "pct": 12.27,
-       "price": 45.12
-      },
-      {
-       "symbol": "EOAN.DE",
-       "name": "E.ON",
-       "pct": 11.69,
-       "price": 19.16
-      },
-      {
-       "symbol": "SAP.DE",
-       "name": "SAP",
-       "pct": 10.55,
-       "price": 211.65
-      }
-     ],
-     "losers": [
-      {
-       "symbol": "IFX.DE",
-       "name": "Infineon Technologies",
-       "pct": -17.39,
-       "price": 48.62
-      },
-      {
-       "symbol": "ENR.DE",
-       "name": "Siemens Energy",
-       "pct": -14.63,
-       "price": 124.1
-      },
-      {
-       "symbol": "RHM.DE",
-       "name": "Rheinmetall",
-       "pct": -9.98,
-       "price": 845.4
-      },
-      {
-       "symbol": "BNR.DE",
-       "name": "Brenntag",
-       "pct": -1.51,
-       "price": 61.18
-      },
-      {
-       "symbol": "SIE.DE",
-       "name": "Siemens",
-       "pct": -0.4,
-       "price": 271.0
-      },
-      {
-       "symbol": "DTG.DE",
-       "name": "Daimler Truck",
-       "pct": 1.02,
-       "price": 41.77
-      },
-      {
-       "symbol": "RWE.DE",
-       "name": "RWE",
-       "pct": 1.14,
-       "price": 58.6
+       "pct": 1.8,
+       "price": 576.2
       },
       {
        "symbol": "MTX.DE",
        "name": "MTU Aero Engines",
-       "pct": 1.81,
-       "price": 355.2
+       "pct": 1.6,
+       "price": 360.9
       },
       {
-       "symbol": "SY1.DE",
-       "name": "Symrise",
-       "pct": 2.3,
-       "price": 94.36
+       "symbol": "ALV.DE",
+       "name": "Allianz",
+       "pct": 1.42,
+       "price": 463.5
+      }
+     ],
+     "losers": [
+      {
+       "symbol": "PAH3.DE",
+       "name": "Porsche SE",
+       "pct": -3.52,
+       "price": 25.21
+      },
+      {
+       "symbol": "ENR.DE",
+       "name": "Siemens Energy",
+       "pct": -3.43,
+       "price": 119.84
       },
       {
        "symbol": "VOW3.DE",
        "name": "Volkswagen Group",
-       "pct": 3.24,
-       "price": 70.2
+       "pct": -2.45,
+       "price": 68.48
+      },
+      {
+       "symbol": "BMW.DE",
+       "name": "BMW",
+       "pct": -1.26,
+       "price": 58.12
+      },
+      {
+       "symbol": "MBG.DE",
+       "name": "Mercedes-Benz Group",
+       "pct": -1.18,
+       "price": 41.37
+      },
+      {
+       "symbol": "DTE.DE",
+       "name": "Deutsche Telekom",
+       "pct": -0.92,
+       "price": 25.92
+      },
+      {
+       "symbol": "SAP.DE",
+       "name": "SAP",
+       "pct": -0.8,
+       "price": 209.95
+      },
+      {
+       "symbol": "RWE.DE",
+       "name": "RWE",
+       "pct": -0.78,
+       "price": 58.14
+      },
+      {
+       "symbol": "VNA.DE",
+       "name": "Vonovia",
+       "pct": -0.75,
+       "price": 17.1
+      },
+      {
+       "symbol": "FME.DE",
+       "name": "Fresenius Medical Care",
+       "pct": -0.61,
+       "price": 40.72
       }
      ],
-     "count": 40
+     "count": 39
+    },
+    "w1": {
+     "label": "1 Woche",
+     "from": "2026-11-03",
+     "to": "2026-11-10",
+     "gainers": [
+      {
+       "symbol": "ZAL.DE",
+       "name": "Zalando",
+       "pct": 11.66,
+       "price": 28.24
+      },
+      {
+       "symbol": "BAYN.DE",
+       "name": "Bayer",
+       "pct": 10.11,
+       "price": 57.08
+      },
+      {
+       "symbol": "CON.DE",
+       "name": "Continental",
+       "pct": 9.8,
+       "price": 73.5
+      },
+      {
+       "symbol": "FRE.DE",
+       "name": "Fresenius",
+       "pct": 9.55,
+       "price": 53.47
+      },
+      {
+       "symbol": "DBK.DE",
+       "name": "Deutsche Bank",
+       "pct": 8.72,
+       "price": 33.12
+      },
+      {
+       "symbol": "HEN3.DE",
+       "name": "Henkel",
+       "pct": 7.88,
+       "price": 87.36
+      },
+      {
+       "symbol": "MTX.DE",
+       "name": "MTU Aero Engines",
+       "pct": 7.73,
+       "price": 360.9
+      },
+      {
+       "symbol": "AIR.DE",
+       "name": "Airbus",
+       "pct": 7.72,
+       "price": 208.35
+      },
+      {
+       "symbol": "ADS.DE",
+       "name": "Adidas",
+       "pct": 6.1,
+       "price": 178.35
+      },
+      {
+       "symbol": "CBK.DE",
+       "name": "Commerzbank",
+       "pct": 5.74,
+       "price": 40.17
+      }
+     ],
+     "losers": [
+      {
+       "symbol": "RHM.DE",
+       "name": "Rheinmetall",
+       "pct": -15.08,
+       "price": 853.3
+      },
+      {
+       "symbol": "ENR.DE",
+       "name": "Siemens Energy",
+       "pct": -7.66,
+       "price": 119.84
+      },
+      {
+       "symbol": "IFX.DE",
+       "name": "Infineon Technologies",
+       "pct": -6.39,
+       "price": 49.05
+      },
+      {
+       "symbol": "BNR.DE",
+       "name": "Brenntag",
+       "pct": -1.63,
+       "price": 61.6
+      },
+      {
+       "symbol": "PAH3.DE",
+       "name": "Porsche SE",
+       "pct": -1.45,
+       "price": 25.21
+      },
+      {
+       "symbol": "SHL.DE",
+       "name": "Siemens Healthineers",
+       "pct": -0.95,
+       "price": 42.94
+      },
+      {
+       "symbol": "DHL.DE",
+       "name": "Deutsche Post",
+       "pct": -0.27,
+       "price": 58.74
+      },
+      {
+       "symbol": "VOW3.DE",
+       "name": "Volkswagen Group",
+       "pct": -0.26,
+       "price": 68.48
+      },
+      {
+       "symbol": "MRK.DE",
+       "name": "Merck",
+       "pct": 0.13,
+       "price": 149.35
+      },
+      {
+       "symbol": "DTE.DE",
+       "name": "Deutsche Telekom",
+       "pct": 0.35,
+       "price": 25.92
+      }
+     ],
+     "count": 39
+    },
+    "m1": {
+     "label": "1 Monat",
+     "from": "2026-10-09",
+     "to": "2026-11-10",
+     "gainers": [
+      {
+       "symbol": "BAYN.DE",
+       "name": "Bayer",
+       "pct": 30.41,
+       "price": 57.08
+      },
+      {
+       "symbol": "FRE.DE",
+       "name": "Fresenius",
+       "pct": 26.24,
+       "price": 53.47
+      },
+      {
+       "symbol": "G24.DE",
+       "name": "Scout24",
+       "pct": 24.29,
+       "price": 90.05
+      },
+      {
+       "symbol": "ADS.DE",
+       "name": "Adidas",
+       "pct": 19.02,
+       "price": 178.35
+      },
+      {
+       "symbol": "ZAL.DE",
+       "name": "Zalando",
+       "pct": 18.66,
+       "price": 28.24
+      },
+      {
+       "symbol": "HEN3.DE",
+       "name": "Henkel",
+       "pct": 17.32,
+       "price": 87.36
+      },
+      {
+       "symbol": "QIA.DE",
+       "name": "Qiagen",
+       "pct": 12.55,
+       "price": 45.23
+      },
+      {
+       "symbol": "HNR1.DE",
+       "name": "Hannover Re",
+       "pct": 12.39,
+       "price": 295.8
+      },
+      {
+       "symbol": "EOAN.DE",
+       "name": "E.ON",
+       "pct": 11.63,
+       "price": 19.14
+      },
+      {
+       "symbol": "ALV.DE",
+       "name": "Allianz",
+       "pct": 11.15,
+       "price": 463.5
+      }
+     ],
+     "losers": [
+      {
+       "symbol": "ENR.DE",
+       "name": "Siemens Energy",
+       "pct": -17.56,
+       "price": 119.84
+      },
+      {
+       "symbol": "IFX.DE",
+       "name": "Infineon Technologies",
+       "pct": -16.67,
+       "price": 49.05
+      },
+      {
+       "symbol": "RHM.DE",
+       "name": "Rheinmetall",
+       "pct": -9.14,
+       "price": 853.3
+      },
+      {
+       "symbol": "BNR.DE",
+       "name": "Brenntag",
+       "pct": -0.84,
+       "price": 61.6
+      },
+      {
+       "symbol": "SIE.DE",
+       "name": "Siemens",
+       "pct": -0.2,
+       "price": 271.55
+      },
+      {
+       "symbol": "RWE.DE",
+       "name": "RWE",
+       "pct": 0.35,
+       "price": 58.14
+      },
+      {
+       "symbol": "PAH3.DE",
+       "name": "Porsche SE",
+       "pct": 0.48,
+       "price": 25.21
+      },
+      {
+       "symbol": "VOW3.DE",
+       "name": "Volkswagen Group",
+       "pct": 0.71,
+       "price": 68.48
+      },
+      {
+       "symbol": "SY1.DE",
+       "name": "Symrise",
+       "pct": 1.86,
+       "price": 93.96
+      },
+      {
+       "symbol": "DTG.DE",
+       "name": "Daimler Truck",
+       "pct": 3.43,
+       "price": 42.77
+      }
+     ],
+     "count": 39
     }
    },
    "diag": {
-    "now_local": "2026-11-11T07:44+01:00",
+    "now_local": "2026-11-11T07:49+01:00",
     "session_open": true,
-    "filled": 0,
+    "filled": 39,
     "last_days": {
-     "2026-11-03": 40,
-     "2026-11-04": 40,
-     "2026-11-05": 40,
-     "2026-11-06": 40,
-     "2026-11-09": 40
+     "2026-11-04": 39,
+     "2026-11-05": 39,
+     "2026-11-06": 39,
+     "2026-11-09": 39,
+     "2026-11-10": 39
     }
    },
    "label": "Deutschland",
@@ -810,7 +810,7 @@
     }
    },
    "diag": {
-    "now_local": "2026-11-11T01:45-05:00",
+    "now_local": "2026-11-11T01:50-05:00",
     "session_open": true,
     "filled": 0,
     "last_days": {
@@ -1222,7 +1222,7 @@
     }
    },
    "diag": {
-    "now_local": "2026-11-11T14:45+08:00",
+    "now_local": "2026-11-11T14:50+08:00",
     "session_open": true,
     "filled": 0,
     "last_days": {
