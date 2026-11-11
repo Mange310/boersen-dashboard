@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Börsen-Morgenblick</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f5f1;--panel:#ffffff;--ink:#16181d;--muted:#6b6f78;--line:#e4e2dc;
+  --up:#137a4a;--up-soft:#d9f0e3;--down:#c23a2b;--down-soft:#f8ddd8;--accent:#16181d;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#111317;--panel:#191c21;--ink:#ecebe7;--muted:#9097a2;--line:#2a2e35;
+  --up:#3ccf8a;--up-soft:#173a2a;--down:#ff7a68;--down-soft:#41201c;--accent:#ecebe7;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "IBM Plex Sans",system-ui,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 16px 48px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:22px}
+h1{margin:0;font-size:26px;font-weight:600;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.stamp{color:var(--muted);font-size:13px;text-align:right}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin-bottom:18px;overflow-x:auto}
+.tab{appearance:none;border:0;background:none;color:var(--muted);font:inherit;font-weight:500;
+  padding:10px 14px;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap}
+.tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+.tab small{font-weight:400;margin-left:6px;opacity:.8}
+.meta{color:var(--muted);font-size:13px;margin:0 0 16px}
+.note{background:var(--line);color:var(--ink);padding:8px 12px;border-radius:6px;font-size:13px;margin-bottom:14px}
+.period{margin-bottom:26px}
+.period h2{font-size:15px;font-weight:600;margin:0 0 10px;display:flex;gap:10px;align-items:baseline}
+.period h2 span{color:var(--muted);font-weight:400;font-size:13px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:760px){.pair{grid-template-columns:1fr}}
+@media (max-width:480px){li{grid-template-columns:20px minmax(0,1fr) 18% 62px;gap:8px}.nm i{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.card h3{margin:0 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+ol{list-style:none;margin:0;padding:0}
+li{display:grid;grid-template-columns:22px minmax(0,1fr) 34% 64px;align-items:center;gap:10px;
+  padding:6px 0;border-top:1px solid var(--line)}
+li:first-child{border-top:0}
+.rk{color:var(--muted);font:500 12px "IBM Plex Mono",monospace}
+.nm{min-width:0}
+.nm b{display:block;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nm i{font-style:normal;color:var(--muted);font-size:12px}
+.bar{height:8px;border-radius:4px;background:var(--line);overflow:hidden}
+.bar div{height:100%;border-radius:4px}
+.up .bar div{background:var(--up)} .down .bar div{background:var(--down)}
+.pct{font:500 13px "IBM Plex Mono",monospace;text-align:right;font-variant-numeric:tabular-nums}
+.up .pct{color:var(--up)} .down .pct{color:var(--down)}
+footer{color:var(--muted);font-size:12px;margin-top:30px;border-top:1px solid var(--line);padding-top:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Börsen-Morgenblick</h1>
+      <div class="sub">Top 10 Gewinner &amp; Verlierer · DAX 40 · S&amp;P 500 · CSI 300</div>
+    </div>
+    <div class="stamp" id="stamp"></div>
+  </header>
+  <nav class="tabs" role="tablist" id="tabs"></nav>
+  <main id="view"></main>
+  <footer>Kursdaten: Yahoo Finance (Schlusskurse, um Splits und Dividenden bereinigt) · Indexzusammensetzung: Wikipedia.
+    Vortag = letzter Handelstag gegen den davor; 1 Woche und 1 Monat = Veränderung seit dem letzten Schlusskurs vor 7 Tagen bzw. 1 Monat.
+    Keine Anlageberatung.</footer>
+</div>
+<script>
+const DATA = /*__DATA__*/null;
+const fmtDate = s => s ? new Date(s + "T12:00:00").toLocaleDateString("de-DE",{weekday:"short",day:"2-digit",month:"2-digit",year:"numeric"}) : "–";
+const fmtPct = v => (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toLocaleString("de-DE",{minimumFractionDigits:2,maximumFractionDigits:2}) + " %";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function list(rows, kind, cur) {
+  if (!rows || !rows.length) return '<p class="meta">Keine Daten.</p>';
+  const max = Math.max(...rows.map(r => Math.abs(r.pct)), 0.01);
+  return "<ol>" + rows.map((r, i) => {
+    const cls = r.pct >= 0 ? "up" : "down";
+    const w = Math.max(2, Math.abs(r.pct) / max * 100);
+    const price = r.price.toLocaleString("de-DE",{minimumFractionDigits:2,maximumFractionDigits:2});
+    return `<li class="${cls}" title="${esc(r.name)} · ${price} ${cur}">
+      <span class="rk">${i + 1}</span>
+      <span class="nm"><b>${esc(r.name)}</b><i>${esc(r.symbol)} · ${price} ${cur}</i></span>
+      <span class="bar"><div style="width:${w}%"></div></span>
+      <span class="pct">${fmtPct(r.pct)}</span></li>`;
+  }).join("") + "</ol>";
+}
+
+function render(key) {
+  const m = DATA.markets[key];
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.k === key));
+  let html = "";
+  if (m.note) html += `<div class="note">${esc(m.note)}</div>`;
+  if (m.error) { document.getElementById("view").innerHTML = html + `<div class="note">${esc(m.error)}</div>`; return; }
+  html += `<p class="meta">${esc(m.index)} · Stand Schlusskurs ${fmtDate(m.asof)} · ${m.priced} von ${m.members} Werten mit Kursdaten</p>`;
+  for (const [pk, p] of Object.entries(m.periods)) {
+    html += `<section class="period"><h2>${esc(p.label)} <span>${fmtDate(p.from)} → ${fmtDate(p.to)}</span></h2>
+      <div class="pair">
+        <div class="card"><h3>Gewinner</h3>${list(p.gainers, "up", m.currency)}</div>
+        <div class="card"><h3>Verlierer</h3>${list(p.losers, "down", m.currency)}</div>
+      </div></section>`;
+  }
+  document.getElementById("view").innerHTML = html;
+  try { localStorage.setItem("market", key); } catch (e) {}
+  history.replaceState(null, "", "#" + key);
+}
+
+const tabs = document.getElementById("tabs");
+for (const [k, m] of Object.entries(DATA.markets)) {
+  const b = document.createElement("button");
+  b.className = "tab"; b.role = "tab"; b.dataset.k = k;
+  b.innerHTML = `${esc(m.label)}<small>${esc(m.index)}</small>`;
+  b.onclick = () => render(k);
+  tabs.appendChild(b);
+}
+const gen = new Date(DATA.generated);
+document.getElementById("stamp").textContent = "Aktualisiert " + gen.toLocaleString("de-DE",{dateStyle:"medium",timeStyle:"short"});
+let start = location.hash.slice(1);
+if (!DATA.markets[start]) { try { start = localStorage.getItem("market"); } catch (e) {} }
+render(DATA.markets[start] ? start : "de");
+</script>
+</body>
+</html>
