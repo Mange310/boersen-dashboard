@@ -1,0 +1,122 @@
+{
+ "SAP.DE": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SAP.F": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SAP.SG": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SAP.MU": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SAP.DU": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SAP.BE": {
+  "last_bar": null,
+  "rmt": null,
+  "price": null,
+  "vol_last": null
+ },
+ "SAP.HM": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SAP.TG": {
+  "last_bar": null,
+  "rmt": null,
+  "price": null,
+  "vol_last": null
+ },
+ "SIE.DE": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SIE.F": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SIE.SG": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SIE.MU": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SIE.DU": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SIE.BE": {
+  "last_bar": null,
+  "rmt": null,
+  "price": null,
+  "vol_last": null
+ },
+ "SIE.HM": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "SIE.TG": {
+  "last_bar": null,
+  "rmt": null,
+  "price": null,
+  "vol_last": null
+ },
+ "ALV.DE": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "ALV.F": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "ALV.SG": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "ALV.MU": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "ALV.DU": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "ALV.BE": {
+  "last_bar": null,
+  "rmt": null,
+  "price": null,
+  "vol_last": null
+ },
+ "ALV.HM": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "ALV.TG": {
+  "last_bar": null,
+  "rmt": null,
+  "price": null,
+  "vol_last": null
+ },
+ "IFX.DE": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "IFX.F": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "IFX.SG": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "IFX.MU": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "IFX.DU": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "IFX.BE": {
+  "last_bar": null,
+  "rmt": null,
+  "price": null,
+  "vol_last": null
+ },
+ "IFX.HM": {
+  "err": "'Timestamp' object cannot be interpreted as an integer"
+ },
+ "IFX.TG": {
+  "last_bar": null,
+  "rmt": null,
+  "price": null,
+  "vol_last": null
+ }
+}
