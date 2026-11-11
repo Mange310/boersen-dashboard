@@ -1,18 +1,33 @@
 {
  "SAP.DE": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T17:39:14+01:00",
+  "price": 209.95,
+  "vol_last": 2043432
  },
  "SAP.F": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T21:55:02+01:00",
+  "price": 209.2,
+  "vol_last": 1296
  },
  "SAP.SG": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T21:55:18+01:00",
+  "price": 209.5,
+  "vol_last": 6360
  },
  "SAP.MU": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T16:10:19+01:00",
+  "price": 210.3,
+  "vol_last": 163
  },
  "SAP.DU": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T16:53:44+01:00",
+  "price": 210.0,
+  "vol_last": 92
  },
  "SAP.BE": {
   "last_bar": null,
@@ -21,7 +36,10 @@
   "vol_last": null
  },
  "SAP.HM": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T19:49:06+01:00",
+  "price": 209.5,
+  "vol_last": 32
  },
  "SAP.TG": {
   "last_bar": null,
@@ -30,19 +48,34 @@
   "vol_last": null
  },
  "SIE.DE": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T17:38:27+01:00",
+  "price": 271.55,
+  "vol_last": 1365661
  },
  "SIE.F": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T20:35:01+01:00",
+  "price": 274.3,
+  "vol_last": 1838
  },
  "SIE.SG": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T21:59:42+01:00",
+  "price": 274.05,
+  "vol_last": 5885
  },
  "SIE.MU": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T20:28:55+01:00",
+  "price": 274.5,
+  "vol_last": 115
  },
  "SIE.DU": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T21:39:07+01:00",
+  "price": 272.65,
+  "vol_last": 30
  },
  "SIE.BE": {
   "last_bar": null,
@@ -51,7 +84,10 @@
   "vol_last": null
  },
  "SIE.HM": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T20:42:53+01:00",
+  "price": 273.95,
+  "vol_last": 115
  },
  "SIE.TG": {
   "last_bar": null,
@@ -60,19 +96,34 @@
   "vol_last": null
  },
  "ALV.DE": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T17:35:12+01:00",
+  "price": 463.5,
+  "vol_last": 548391
  },
  "ALV.F": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T19:55:05+01:00",
+  "price": 464.5,
+  "vol_last": 2187
  },
  "ALV.SG": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T21:57:30+01:00",
+  "price": 465.7,
+  "vol_last": 5513
  },
  "ALV.MU": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T20:53:35+01:00",
+  "price": 465.1,
+  "vol_last": 73
  },
  "ALV.DU": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T19:30:09+01:00",
+  "price": 463.0,
+  "vol_last": 42
  },
  "ALV.BE": {
   "last_bar": null,
@@ -81,7 +132,10 @@
   "vol_last": null
  },
  "ALV.HM": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T18:19:29+01:00",
+  "price": 463.3,
+  "vol_last": 49
  },
  "ALV.TG": {
   "last_bar": null,
@@ -90,19 +144,34 @@
   "vol_last": null
  },
  "IFX.DE": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T17:39:51+01:00",
+  "price": 49.05,
+  "vol_last": 7072847
  },
  "IFX.F": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-10",
+  "rmt": "2026-11-10T21:55:02+01:00",
+  "price": 49.625,
+  "vol_last": 48028
  },
  "IFX.SG": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-11",
+  "rmt": "2026-11-11T07:31:39+01:00",
+  "price": 50.8,
+  "vol_last": 770
  },
  "IFX.MU": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T18:16:29+01:00",
+  "price": 49.045,
+  "vol_last": 515
  },
  "IFX.DU": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T19:41:38+01:00",
+  "price": 49.655,
+  "vol_last": 552
  },
  "IFX.BE": {
   "last_bar": null,
@@ -111,7 +180,10 @@
   "vol_last": null
  },
  "IFX.HM": {
-  "err": "'Timestamp' object cannot be interpreted as an integer"
+  "last_bar": "2026-11-09",
+  "rmt": "2026-11-10T19:10:26+01:00",
+  "price": 49.38,
+  "vol_last": 1599
  },
  "IFX.TG": {
   "last_bar": null,
