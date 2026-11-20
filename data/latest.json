@@ -1,412 +1,412 @@
 {
- "generated": "2026-11-19T06:36+01:00",
+ "generated": "2026-11-20T06:38+01:00",
  "markets": {
   "de": {
-   "asof": "2026-11-18",
+   "asof": "2026-11-19",
    "members": 40,
    "priced": 39,
    "periods": {
     "d1": {
      "label": "Vortag",
-     "from": "2026-11-17",
-     "to": "2026-11-18",
+     "from": "2026-11-18",
+     "to": "2026-11-19",
      "gainers": [
       {
-       "symbol": "ZAL.DE",
-       "name": "Zalando",
-       "pct": 2.79,
-       "price": 29.13
+       "symbol": "DBK.DE",
+       "name": "Deutsche Bank",
+       "pct": 0.35,
+       "price": 30.1
       },
       {
-       "symbol": "CON.DE",
-       "name": "Continental",
-       "pct": 2.03,
-       "price": 72.44
-      },
-      {
-       "symbol": "VNA.DE",
-       "name": "Vonovia",
-       "pct": 2.02,
-       "price": 17.15
-      },
-      {
-       "symbol": "ENR.DE",
-       "name": "Siemens Energy",
-       "pct": 1.33,
-       "price": 126.66
-      },
-      {
-       "symbol": "SHL.DE",
-       "name": "Siemens Healthineers",
-       "pct": 1.25,
-       "price": 43.84
-      },
-      {
-       "symbol": "SY1.DE",
-       "name": "Symrise",
-       "pct": 1.18,
-       "price": 96.08
+       "symbol": "SIE.DE",
+       "name": "Siemens",
+       "pct": 0.34,
+       "price": 266.9
       },
       {
        "symbol": "IFX.DE",
        "name": "Infineon Technologies",
-       "pct": 1.07,
-       "price": 49.2
+       "pct": 0.28,
+       "price": 49.34
+      },
+      {
+       "symbol": "AIR.DE",
+       "name": "Airbus",
+       "pct": 0.18,
+       "price": 198.22
+      },
+      {
+       "symbol": "QIA.DE",
+       "name": "Qiagen",
+       "pct": 0.11,
+       "price": 45.25
+      },
+      {
+       "symbol": "ENR.DE",
+       "name": "Siemens Energy",
+       "pct": 0.03,
+       "price": 126.7
+      },
+      {
+       "symbol": "SHL.DE",
+       "name": "Siemens Healthineers",
+       "pct": -0.05,
+       "price": 43.82
       },
       {
        "symbol": "G1A.DE",
        "name": "GEA Group",
-       "pct": 0.65,
-       "price": 70.0
-      },
-      {
-       "symbol": "MTX.DE",
-       "name": "MTU Aero Engines",
-       "pct": 0.26,
-       "price": 348.7
+       "pct": -0.64,
+       "price": 69.55
       },
       {
        "symbol": "BNR.DE",
        "name": "Brenntag",
-       "pct": 0.14,
-       "price": 58.0
+       "pct": -0.72,
+       "price": 57.58
+      },
+      {
+       "symbol": "MRK.DE",
+       "name": "Merck",
+       "pct": -0.74,
+       "price": 148.4
       }
      ],
      "losers": [
       {
-       "symbol": "SAP.DE",
-       "name": "SAP",
-       "pct": -3.76,
-       "price": 193.92
-      },
-      {
-       "symbol": "CBK.DE",
-       "name": "Commerzbank",
-       "pct": -3.46,
-       "price": 37.71
-      },
-      {
-       "symbol": "DBK.DE",
-       "name": "Deutsche Bank",
-       "pct": -3.05,
-       "price": 30.0
-      },
-      {
-       "symbol": "DTE.DE",
-       "name": "Deutsche Telekom",
-       "pct": -2.91,
-       "price": 26.33
-      },
-      {
        "symbol": "FME.DE",
        "name": "Fresenius Medical Care",
-       "pct": -2.9,
-       "price": 38.56
+       "pct": -4.77,
+       "price": 36.72
+      },
+      {
+       "symbol": "SAP.DE",
+       "name": "SAP",
+       "pct": -3.56,
+       "price": 187.02
+      },
+      {
+       "symbol": "FRE.DE",
+       "name": "Fresenius",
+       "pct": -3.09,
+       "price": 51.78
+      },
+      {
+       "symbol": "BAYN.DE",
+       "name": "Bayer",
+       "pct": -2.25,
+       "price": 54.68
+      },
+      {
+       "symbol": "HEN3.DE",
+       "name": "Henkel",
+       "pct": -2.21,
+       "price": 85.92
+      },
+      {
+       "symbol": "VNA.DE",
+       "name": "Vonovia",
+       "pct": -2.04,
+       "price": 16.8
+      },
+      {
+       "symbol": "MBG.DE",
+       "name": "Mercedes-Benz Group",
+       "pct": -1.78,
+       "price": 38.27
+      },
+      {
+       "symbol": "CON.DE",
+       "name": "Continental",
+       "pct": -1.77,
+       "price": 71.16
+      },
+      {
+       "symbol": "HNR1.DE",
+       "name": "Hannover Re",
+       "pct": -1.77,
+       "price": 288.8
       },
       {
        "symbol": "BEI.DE",
        "name": "Beiersdorf",
-       "pct": -2.69,
-       "price": 80.34
-      },
-      {
-       "symbol": "RHM.DE",
-       "name": "Rheinmetall",
-       "pct": -2.19,
-       "price": 744.2
-      },
-      {
-       "symbol": "BAS.DE",
-       "name": "BASF",
-       "pct": -2.01,
-       "price": 51.19
-      },
-      {
-       "symbol": "BMW.DE",
-       "name": "BMW",
-       "pct": -1.96,
-       "price": 55.0
-      },
-      {
-       "symbol": "PAH3.DE",
-       "name": "Porsche SE",
-       "pct": -1.73,
-       "price": 23.31
+       "pct": -1.64,
+       "price": 79.02
       }
      ],
      "count": 39
     },
     "w1": {
      "label": "1 Woche",
-     "from": "2026-11-11",
-     "to": "2026-11-18",
+     "from": "2026-11-12",
+     "to": "2026-11-19",
      "gainers": [
       {
        "symbol": "ZAL.DE",
        "name": "Zalando",
-       "pct": 4.97,
-       "price": 29.13
+       "pct": 1.26,
+       "price": 28.82
       },
       {
-       "symbol": "MUV2.DE",
-       "name": "Munich Re",
-       "pct": 2.21,
-       "price": 582.0
+       "symbol": "BNR.DE",
+       "name": "Brenntag",
+       "pct": 0.24,
+       "price": 57.58
       },
       {
-       "symbol": "FRE.DE",
-       "name": "Fresenius",
-       "pct": 1.15,
-       "price": 53.43
-      },
-      {
-       "symbol": "VNA.DE",
-       "name": "Vonovia",
-       "pct": 0.85,
-       "price": 17.15
+       "symbol": "MRK.DE",
+       "name": "Merck",
+       "pct": 0.17,
+       "price": 148.4
       },
       {
        "symbol": "SHL.DE",
        "name": "Siemens Healthineers",
-       "pct": 0.74,
-       "price": 43.84
+       "pct": 0.05,
+       "price": 43.82
       },
       {
-       "symbol": "SY1.DE",
-       "name": "Symrise",
-       "pct": 0.67,
-       "price": 96.08
-      },
-      {
-       "symbol": "DTE.DE",
-       "name": "Deutsche Telekom",
-       "pct": 0.53,
-       "price": 26.33
+       "symbol": "QIA.DE",
+       "name": "Qiagen",
+       "pct": 0.02,
+       "price": 45.25
       },
       {
        "symbol": "HEN3.DE",
        "name": "Henkel",
-       "pct": 0.3,
-       "price": 87.86
+       "pct": -0.46,
+       "price": 85.92
       },
       {
-       "symbol": "DHL.DE",
-       "name": "Deutsche Post",
-       "pct": 0.03,
-       "price": 59.94
+       "symbol": "G1A.DE",
+       "name": "GEA Group",
+       "pct": -0.64,
+       "price": 69.55
       },
       {
-       "symbol": "HNR1.DE",
-       "name": "Hannover Re",
-       "pct": -0.2,
-       "price": 294.0
+       "symbol": "VNA.DE",
+       "name": "Vonovia",
+       "pct": -0.71,
+       "price": 16.8
+      },
+      {
+       "symbol": "SY1.DE",
+       "name": "Symrise",
+       "pct": -1.73,
+       "price": 95.26
+      },
+      {
+       "symbol": "DTE.DE",
+       "name": "Deutsche Telekom",
+       "pct": -1.81,
+       "price": 26.04
       }
      ],
      "losers": [
       {
-       "symbol": "DBK.DE",
-       "name": "Deutsche Bank",
-       "pct": -10.85,
-       "price": 30.0
-      },
-      {
        "symbol": "SAP.DE",
        "name": "SAP",
-       "pct": -8.07,
-       "price": 193.92
+       "pct": -12.01,
+       "price": 187.02
       },
       {
-       "symbol": "PAH3.DE",
-       "name": "Porsche SE",
-       "pct": -7.46,
-       "price": 23.31
+       "symbol": "DBK.DE",
+       "name": "Deutsche Bank",
+       "pct": -9.81,
+       "price": 30.1
       },
       {
-       "symbol": "RHM.DE",
-       "name": "Rheinmetall",
-       "pct": -6.28,
-       "price": 744.2
-      },
-      {
-       "symbol": "CBK.DE",
-       "name": "Commerzbank",
-       "pct": -6.1,
-       "price": 37.71
-      },
-      {
-       "symbol": "AIR.DE",
-       "name": "Airbus",
-       "pct": -6.05,
-       "price": 197.86
+       "symbol": "FME.DE",
+       "name": "Fresenius Medical Care",
+       "pct": -7.18,
+       "price": 36.72
       },
       {
        "symbol": "BAS.DE",
        "name": "BASF",
-       "pct": -6.04,
-       "price": 51.19
+       "pct": -6.92,
+       "price": 50.68
+      },
+      {
+       "symbol": "CBK.DE",
+       "name": "Commerzbank",
+       "pct": -6.61,
+       "price": 37.27
+      },
+      {
+       "symbol": "PAH3.DE",
+       "name": "Porsche SE",
+       "pct": -6.42,
+       "price": 23.04
+      },
+      {
+       "symbol": "BEI.DE",
+       "name": "Beiersdorf",
+       "pct": -6.02,
+       "price": 79.02
       },
       {
        "symbol": "MBG.DE",
        "name": "Mercedes-Benz Group",
-       "pct": -5.93,
-       "price": 38.96
-      },
-      {
-       "symbol": "VOW3.DE",
-       "name": "Volkswagen Group",
-       "pct": -5.88,
-       "price": 65.28
+       "pct": -5.97,
+       "price": 38.27
       },
       {
        "symbol": "IFX.DE",
        "name": "Infineon Technologies",
-       "pct": -5.59,
-       "price": 49.2
+       "pct": -5.31,
+       "price": 49.34
+      },
+      {
+       "symbol": "SIE.DE",
+       "name": "Siemens",
+       "pct": -5.25,
+       "price": 266.9
       }
      ],
      "count": 39
     },
     "m1": {
      "label": "1 Monat",
-     "from": "2026-10-16",
-     "to": "2026-11-18",
+     "from": "2026-10-19",
+     "to": "2026-11-19",
      "gainers": [
       {
        "symbol": "BAYN.DE",
        "name": "Bayer",
-       "pct": 25.82,
-       "price": 55.94
+       "pct": 25.99,
+       "price": 54.68
       },
       {
        "symbol": "HEI.DE",
        "name": "Heidelberg Materials",
-       "pct": 22.34,
-       "price": 176.6
+       "pct": 20.84,
+       "price": 174.85
       },
       {
        "symbol": "FRE.DE",
        "name": "Fresenius",
-       "pct": 18.54,
-       "price": 53.43
+       "pct": 15.31,
+       "price": 51.78
       },
       {
        "symbol": "ZAL.DE",
        "name": "Zalando",
-       "pct": 15.37,
-       "price": 29.13
-      },
-      {
-       "symbol": "HEN3.DE",
-       "name": "Henkel",
-       "pct": 11.19,
-       "price": 87.86
+       "pct": 11.23,
+       "price": 28.82
       },
       {
        "symbol": "G24.DE",
        "name": "Scout24",
-       "pct": 10.4,
-       "price": 88.65
+       "pct": 9.89,
+       "price": 87.8
       },
       {
        "symbol": "QIA.DE",
        "name": "Qiagen",
-       "pct": 10.16,
-       "price": 45.2
+       "pct": 9.71,
+       "price": 45.25
+      },
+      {
+       "symbol": "HEN3.DE",
+       "name": "Henkel",
+       "pct": 9.51,
+       "price": 85.92
       },
       {
        "symbol": "ADS.DE",
        "name": "Adidas",
-       "pct": 9.65,
-       "price": 173.8
-      },
-      {
-       "symbol": "HNR1.DE",
-       "name": "Hannover Re",
-       "pct": 7.14,
-       "price": 294.0
+       "pct": 9.06,
+       "price": 172.2
       },
       {
        "symbol": "ALV.DE",
        "name": "Allianz",
-       "pct": 6.38,
-       "price": 461.6
+       "pct": 7.42,
+       "price": 457.5
+      },
+      {
+       "symbol": "SHL.DE",
+       "name": "Siemens Healthineers",
+       "pct": 6.8,
+       "price": 43.82
       }
      ],
      "losers": [
       {
-       "symbol": "RHM.DE",
-       "name": "Rheinmetall",
-       "pct": -31.74,
-       "price": 744.2
-      },
-      {
        "symbol": "BNR.DE",
        "name": "Brenntag",
-       "pct": -10.82,
-       "price": 58.0
+       "pct": -10.7,
+       "price": 57.58
       },
       {
        "symbol": "PAH3.DE",
        "name": "Porsche SE",
-       "pct": -6.76,
-       "price": 23.31
-      },
-      {
-       "symbol": "ENR.DE",
-       "name": "Siemens Energy",
-       "pct": -6.16,
-       "price": 126.66
-      },
-      {
-       "symbol": "IFX.DE",
-       "name": "Infineon Technologies",
-       "pct": -6.08,
-       "price": 49.2
-      },
-      {
-       "symbol": "MBG.DE",
-       "name": "Mercedes-Benz Group",
-       "pct": -5.17,
-       "price": 38.96
+       "pct": -8.5,
+       "price": 23.04
       },
       {
        "symbol": "VOW3.DE",
        "name": "Volkswagen Group",
-       "pct": -4.95,
-       "price": 65.28
+       "pct": -6.97,
+       "price": 64.64
       },
       {
-       "symbol": "BAS.DE",
-       "name": "BASF",
-       "pct": -3.83,
-       "price": 51.19
+       "symbol": "SAP.DE",
+       "name": "SAP",
+       "pct": -6.42,
+       "price": 187.02
       },
       {
-       "symbol": "BMW.DE",
-       "name": "BMW",
-       "pct": -3.61,
-       "price": 55.0
+       "symbol": "MBG.DE",
+       "name": "Mercedes-Benz Group",
+       "pct": -6.09,
+       "price": 38.27
+      },
+      {
+       "symbol": "IFX.DE",
+       "name": "Infineon Technologies",
+       "pct": -6.05,
+       "price": 49.34
+      },
+      {
+       "symbol": "FME.DE",
+       "name": "Fresenius Medical Care",
+       "pct": -5.94,
+       "price": 36.72
       },
       {
        "symbol": "SY1.DE",
        "name": "Symrise",
-       "pct": -3.38,
-       "price": 96.08
+       "pct": -5.4,
+       "price": 95.26
+      },
+      {
+       "symbol": "ENR.DE",
+       "name": "Siemens Energy",
+       "pct": -4.84,
+       "price": 126.7
+      },
+      {
+       "symbol": "BMW.DE",
+       "name": "BMW",
+       "pct": -4.5,
+       "price": 54.34
       }
      ],
      "count": 39
     }
    },
    "diag": {
-    "now_local": "2026-11-19T06:36+01:00",
+    "now_local": "2026-11-20T06:38+01:00",
     "session_open": true,
     "filled": 39,
     "last_days": {
-     "2026-11-12": 39,
      "2026-11-13": 39,
      "2026-11-16": 39,
      "2026-11-17": 39,
-     "2026-11-18": 39
+     "2026-11-18": 39,
+     "2026-11-19": 39
     }
    },
    "label": "Deutschland",
@@ -414,411 +414,411 @@
    "currency": "EUR"
   },
   "us": {
-   "asof": "2026-11-18",
+   "asof": "2026-11-19",
    "members": 503,
    "priced": 503,
    "periods": {
     "d1": {
      "label": "Vortag",
-     "from": "2026-11-17",
-     "to": "2026-11-18",
+     "from": "2026-11-18",
+     "to": "2026-11-19",
      "gainers": [
       {
-       "symbol": "OKTA",
-       "name": "Okta, Inc.",
-       "pct": 12.07,
-       "price": 195.61
+       "symbol": "WDC",
+       "name": "Western Digital",
+       "pct": 2.98,
+       "price": 296.78
       },
       {
-       "symbol": "PANW",
-       "name": "Palo Alto Networks",
-       "pct": 9.9,
-       "price": 339.92
+       "symbol": "EXPD",
+       "name": "Expeditors International",
+       "pct": 2.26,
+       "price": 193.14
       },
       {
-       "symbol": "GNRC",
-       "name": "Generac",
-       "pct": 9.87,
-       "price": 205.45
-      },
-      {
-       "symbol": "AKAM",
-       "name": "Akamai Technologies",
-       "pct": 8.34,
-       "price": 91.7
-      },
-      {
-       "symbol": "TJX",
-       "name": "TJX Companies",
-       "pct": 8.05,
-       "price": 140.3
-      },
-      {
-       "symbol": "CRWD",
-       "name": "CrowdStrike",
-       "pct": 7.95,
-       "price": 237.03
-      },
-      {
-       "symbol": "LULU",
-       "name": "Lululemon Athletica",
-       "pct": 6.38,
-       "price": 110.78
-      },
-      {
-       "symbol": "TTWO",
-       "name": "Take-Two Interactive",
-       "pct": 6.22,
-       "price": 216.61
-      },
-      {
-       "symbol": "FTNT",
-       "name": "Fortinet",
-       "pct": 5.87,
-       "price": 131.81
-      },
-      {
-       "symbol": "AMD",
-       "name": "Advanced Micro Devices",
-       "pct": 5.31,
-       "price": 530.14
-      }
-     ],
-     "losers": [
-      {
-       "symbol": "HUM",
-       "name": "Humana",
-       "pct": -12.98,
-       "price": 385.78
-      },
-      {
-       "symbol": "UNH",
-       "name": "UnitedHealth Group",
-       "pct": -10.21,
-       "price": 349.91
-      },
-      {
-       "symbol": "ELV",
-       "name": "Elevance Health",
-       "pct": -7.63,
-       "price": 400.84
-      },
-      {
-       "symbol": "CNC",
-       "name": "Centene Corporation",
-       "pct": -7.03,
-       "price": 67.45
-      },
-      {
-       "symbol": "FCX",
-       "name": "Freeport-McMoRan",
-       "pct": -6.96,
-       "price": 51.45
-      },
-      {
-       "symbol": "DVA",
-       "name": "DaVita",
-       "pct": -6.48,
-       "price": 161.79
-      },
-      {
-       "symbol": "NEM",
-       "name": "Newmont",
-       "pct": -6.05,
-       "price": 104.53
-      },
-      {
-       "symbol": "VLO",
-       "name": "Valero Energy",
-       "pct": -5.52,
-       "price": 343.7
-      },
-      {
-       "symbol": "MPC",
-       "name": "Marathon Petroleum",
-       "pct": -5.23,
-       "price": 373.86
-      },
-      {
-       "symbol": "CVS",
-       "name": "CVS Health",
-       "pct": -5.2,
-       "price": 81.35
-      }
-     ],
-     "count": 503
-    },
-    "w1": {
-     "label": "1 Woche",
-     "from": "2026-11-11",
-     "to": "2026-11-18",
-     "gainers": [
-      {
-       "symbol": "DPZ",
-       "name": "Domino's",
-       "pct": 7.59,
-       "price": 353.54
-      },
-      {
-       "symbol": "OKTA",
-       "name": "Okta, Inc.",
-       "pct": 7.33,
-       "price": 195.61
-      },
-      {
-       "symbol": "TSN",
-       "name": "Tyson Foods",
-       "pct": 7.32,
-       "price": 64.25
-      },
-      {
-       "symbol": "TSCO",
-       "name": "Tractor Supply",
-       "pct": 6.18,
-       "price": 39.01
-      },
-      {
-       "symbol": "GNRC",
-       "name": "Generac",
-       "pct": 5.9,
-       "price": 205.45
-      },
-      {
-       "symbol": "AKAM",
-       "name": "Akamai Technologies",
-       "pct": 5.79,
-       "price": 91.7
-      },
-      {
-       "symbol": "HRL",
-       "name": "Hormel Foods",
-       "pct": 5.47,
-       "price": 23.15
-      },
-      {
-       "symbol": "EIX",
-       "name": "Edison International",
-       "pct": 5.16,
-       "price": 63.01
-      },
-      {
-       "symbol": "KHC",
-       "name": "Kraft Heinz",
-       "pct": 4.82,
-       "price": 25.44
-      },
-      {
-       "symbol": "PCG",
-       "name": "PG&E Corporation",
-       "pct": 4.66,
-       "price": 13.71
-      }
-     ],
-     "losers": [
-      {
-       "symbol": "MRNA",
-       "name": "Moderna",
-       "pct": -20.87,
-       "price": 196.79
-      },
-      {
-       "symbol": "SMCI",
-       "name": "Supermicro",
-       "pct": -19.91,
-       "price": 24.37
-      },
-      {
-       "symbol": "COIN",
-       "name": "Coinbase",
-       "pct": -18.9,
-       "price": 110.51
-      },
-      {
-       "symbol": "BE",
-       "name": "Bloom Energy",
-       "pct": -18.37,
-       "price": 170.98
-      },
-      {
-       "symbol": "HOOD",
-       "name": "Robinhood Markets",
-       "pct": -18.22,
-       "price": 69.17
-      },
-      {
-       "symbol": "FCX",
-       "name": "Freeport-McMoRan",
-       "pct": -17.18,
-       "price": 51.45
-      },
-      {
-       "symbol": "DELL",
-       "name": "Dell Technologies",
-       "pct": -16.21,
-       "price": 313.11
-      },
-      {
-       "symbol": "SKYD",
-       "name": "Skydance",
-       "pct": -16.08,
-       "price": 6.63
-      },
-      {
-       "symbol": "FSLR",
-       "name": "First Solar",
-       "pct": -15.23,
-       "price": 150.98
-      },
-      {
-       "symbol": "LITE",
-       "name": "Lumentum",
-       "pct": -14.97,
-       "price": 551.07
-      }
-     ],
-     "count": 502
-    },
-    "m1": {
-     "label": "1 Monat",
-     "from": "2026-10-16",
-     "to": "2026-11-18",
-     "gainers": [
-      {
-       "symbol": "APP",
-       "name": "AppLovin",
-       "pct": 46.89,
-       "price": 390.91
-      },
-      {
-       "symbol": "PNR",
-       "name": "Pentair",
-       "pct": 28.56,
-       "price": 68.37
-      },
-      {
-       "symbol": "FISV",
-       "name": "Fiserv",
-       "pct": 27.19,
-       "price": 60.48
-      },
-      {
-       "symbol": "GEN",
-       "name": "Gen Digital",
-       "pct": 26.64,
-       "price": 30.47
-      },
-      {
-       "symbol": "CHTR",
-       "name": "Charter Communications",
-       "pct": 26.41,
-       "price": 139.19
-      },
-      {
-       "symbol": "CLX",
-       "name": "Clorox",
-       "pct": 26.26,
-       "price": 108.39
-      },
-      {
-       "symbol": "IDXX",
-       "name": "Idexx Laboratories",
-       "pct": 24.65,
-       "price": 698.47
-      },
-      {
-       "symbol": "CMG",
-       "name": "Chipotle Mexican Grill",
-       "pct": 23.62,
-       "price": 36.95
-      },
-      {
-       "symbol": "ROP",
-       "name": "Roper Technologies",
-       "pct": 23.04,
-       "price": 470.87
-      },
-      {
-       "symbol": "CVNA",
-       "name": "Carvana",
-       "pct": 22.01,
-       "price": 71.78
-      }
-     ],
-     "losers": [
-      {
-       "symbol": "RDDT",
-       "name": "Reddit",
-       "pct": -39.74,
-       "price": 94.09
+       "symbol": "AXON",
+       "name": "Axon Enterprise",
+       "pct": 2.09,
+       "price": 306.98
       },
       {
        "symbol": "INTC",
        "name": "Intel",
-       "pct": -39.15,
-       "price": 54.67
+       "pct": 1.92,
+       "price": 55.72
       },
       {
-       "symbol": "NOW",
-       "name": "ServiceNow",
-       "pct": -36.19,
-       "price": 90.59
+       "symbol": "CF",
+       "name": "CF Industries",
+       "pct": 1.81,
+       "price": 115.76
       },
       {
-       "symbol": "COIN",
-       "name": "Coinbase",
-       "pct": -36.18,
-       "price": 110.51
+       "symbol": "PCG",
+       "name": "PG&E Corporation",
+       "pct": 1.68,
+       "price": 13.94
+      },
+      {
+       "symbol": "QCOM",
+       "name": "Qualcomm",
+       "pct": 1.38,
+       "price": 162.01
+      },
+      {
+       "symbol": "STX",
+       "name": "Seagate Technology",
+       "pct": 1.06,
+       "price": 521.39
+      },
+      {
+       "symbol": "COHR",
+       "name": "Coherent Corp.",
+       "pct": 0.99,
+       "price": 214.94
+      },
+      {
+       "symbol": "HAL",
+       "name": "Halliburton",
+       "pct": 0.92,
+       "price": 31.73
+      }
+     ],
+     "losers": [
+      {
+       "symbol": "WSM",
+       "name": "Williams-Sonoma, Inc.",
+       "pct": -15.16,
+       "price": 220.66
+      },
+      {
+       "symbol": "AMD",
+       "name": "Advanced Micro Devices",
+       "pct": -7.72,
+       "price": 489.19
+      },
+      {
+       "symbol": "FISV",
+       "name": "Fiserv",
+       "pct": -6.38,
+       "price": 56.62
+      },
+      {
+       "symbol": "UHS",
+       "name": "Universal Health Services",
+       "pct": -5.96,
+       "price": 174.98
+      },
+      {
+       "symbol": "DECK",
+       "name": "Deckers Brands",
+       "pct": -5.56,
+       "price": 78.95
+      },
+      {
+       "symbol": "UNH",
+       "name": "UnitedHealth Group",
+       "pct": -5.55,
+       "price": 330.48
+      },
+      {
+       "symbol": "RCL",
+       "name": "Royal Caribbean Group",
+       "pct": -5.46,
+       "price": 303.15
+      },
+      {
+       "symbol": "NKE",
+       "name": "Nike, Inc.",
+       "pct": -5.45,
+       "price": 34.33
       },
       {
        "symbol": "MRVL",
        "name": "Marvell Technology",
-       "pct": -36.12,
-       "price": 145.54
+       "pct": -4.86,
+       "price": 138.47
       },
       {
-       "symbol": "LITE",
-       "name": "Lumentum",
-       "pct": -33.13,
-       "price": 551.07
+       "symbol": "CCL",
+       "name": "Carnival Corporation",
+       "pct": -4.83,
+       "price": 27.57
+      }
+     ],
+     "count": 435
+    },
+    "w1": {
+     "label": "1 Woche",
+     "from": "2026-11-12",
+     "to": "2026-11-19",
+     "gainers": [
+      {
+       "symbol": "TSN",
+       "name": "Tyson Foods",
+       "pct": 7.76,
+       "price": 63.86
       },
       {
-       "symbol": "DDOG",
-       "name": "Datadog",
-       "pct": -32.37,
-       "price": 167.11
+       "symbol": "PCG",
+       "name": "PG&E Corporation",
+       "pct": 7.48,
+       "price": 13.94
       },
       {
-       "symbol": "DELL",
-       "name": "Dell Technologies",
-       "pct": -30.59,
-       "price": 313.11
+       "symbol": "GNRC",
+       "name": "Generac",
+       "pct": 6.33,
+       "price": 205.09
       },
       {
-       "symbol": "HOOD",
-       "name": "Robinhood Markets",
-       "pct": -30.04,
-       "price": 69.17
+       "symbol": "AKAM",
+       "name": "Akamai Technologies",
+       "pct": 5.95,
+       "price": 91.71
+      },
+      {
+       "symbol": "TSCO",
+       "name": "Tractor Supply",
+       "pct": 5.76,
+       "price": 38.74
+      },
+      {
+       "symbol": "DPZ",
+       "name": "Domino's",
+       "pct": 5.72,
+       "price": 352.28
+      },
+      {
+       "symbol": "HRL",
+       "name": "Hormel Foods",
+       "pct": 5.63,
+       "price": 23.06
+      },
+      {
+       "symbol": "EIX",
+       "name": "Edison International",
+       "pct": 5.05,
+       "price": 63.02
+      },
+      {
+       "symbol": "TGT",
+       "name": "Target Corporation",
+       "pct": 4.08,
+       "price": 167.46
+      },
+      {
+       "symbol": "CMG",
+       "name": "Chipotle Mexican Grill",
+       "pct": 3.21,
+       "price": 36.3
+      }
+     ],
+     "losers": [
+      {
+       "symbol": "SNDK",
+       "name": "Sandisk",
+       "pct": -19.45,
+       "price": 94.39
+      },
+      {
+       "symbol": "FCX",
+       "name": "Freeport-McMoRan",
+       "pct": -18.74,
+       "price": 49.12
+      },
+      {
+       "symbol": "UNH",
+       "name": "UnitedHealth Group",
+       "pct": -18.43,
+       "price": 330.48
+      },
+      {
+       "symbol": "SKYD",
+       "name": "Skydance",
+       "pct": -16.47,
+       "price": 6.34
+      },
+      {
+       "symbol": "AMD",
+       "name": "Advanced Micro Devices",
+       "pct": -16.42,
+       "price": 489.19
+      },
+      {
+       "symbol": "MRVL",
+       "name": "Marvell Technology",
+       "pct": -15.8,
+       "price": 138.47
+      },
+      {
+       "symbol": "CRM",
+       "name": "Salesforce",
+       "pct": -15.75,
+       "price": 183.31
+      },
+      {
+       "symbol": "HUM",
+       "name": "Humana",
+       "pct": -14.35,
+       "price": 380.0
+      },
+      {
+       "symbol": "TER",
+       "name": "Teradyne",
+       "pct": -13.77,
+       "price": 227.43
+      },
+      {
+       "symbol": "MU",
+       "name": "Micron Technology",
+       "pct": -13.53,
+       "price": 690.44
+      }
+     ],
+     "count": 435
+    },
+    "m1": {
+     "label": "1 Monat",
+     "from": "2026-10-19",
+     "to": "2026-11-19",
+     "gainers": [
+      {
+       "symbol": "PNR",
+       "name": "Pentair",
+       "pct": 30.84,
+       "price": 68.68
+      },
+      {
+       "symbol": "GEN",
+       "name": "Gen Digital",
+       "pct": 28.06,
+       "price": 30.15
+      },
+      {
+       "symbol": "CLX",
+       "name": "Clorox",
+       "pct": 24.38,
+       "price": 104.9
+      },
+      {
+       "symbol": "IDXX",
+       "name": "Idexx Laboratories",
+       "pct": 24.08,
+       "price": 689.65
+      },
+      {
+       "symbol": "CHTR",
+       "name": "Charter Communications",
+       "pct": 22.74,
+       "price": 133.18
+      },
+      {
+       "symbol": "CMG",
+       "name": "Chipotle Mexican Grill",
+       "pct": 21.61,
+       "price": 36.3
+      },
+      {
+       "symbol": "ROP",
+       "name": "Roper Technologies",
+       "pct": 20.72,
+       "price": 462.96
+      },
+      {
+       "symbol": "EW",
+       "name": "Edwards Lifesciences",
+       "pct": 19.1,
+       "price": 103.88
+      },
+      {
+       "symbol": "FISV",
+       "name": "Fiserv",
+       "pct": 18.73,
+       "price": 56.62
+      },
+      {
+       "symbol": "TSN",
+       "name": "Tyson Foods",
+       "pct": 18.26,
+       "price": 63.86
+      }
+     ],
+     "losers": [
+      {
+       "symbol": "SNDK",
+       "name": "Sandisk",
+       "pct": -44.92,
+       "price": 94.39
+      },
+      {
+       "symbol": "MRVL",
+       "name": "Marvell Technology",
+       "pct": -41.6,
+       "price": 138.47
+      },
+      {
+       "symbol": "INTC",
+       "name": "Intel",
+       "pct": -39.45,
+       "price": 55.72
       },
       {
        "symbol": "NVDA",
        "name": "Nvidia",
-       "pct": -29.5,
-       "price": 150.96
+       "pct": -32.76,
+       "price": 145.98
+      },
+      {
+       "symbol": "TER",
+       "name": "Teradyne",
+       "pct": -32.22,
+       "price": 227.43
+      },
+      {
+       "symbol": "FCX",
+       "name": "Freeport-McMoRan",
+       "pct": -29.58,
+       "price": 49.12
+      },
+      {
+       "symbol": "FFIV",
+       "name": "F5, Inc.",
+       "pct": -29.44,
+       "price": 318.09
+      },
+      {
+       "symbol": "FIS",
+       "name": "Fidelity National Information Services",
+       "pct": -27.9,
+       "price": 25.94
+      },
+      {
+       "symbol": "CAT",
+       "name": "Caterpillar Inc.",
+       "pct": -25.78,
+       "price": 537.37
+      },
+      {
+       "symbol": "SMCI",
+       "name": "Supermicro",
+       "pct": -25.73,
+       "price": 23.84
       }
      ],
-     "count": 502
+     "count": 435
     }
    },
    "diag": {
-    "now_local": "2026-11-19T00:37-05:00",
+    "now_local": "2026-11-20T00:38-05:00",
     "session_open": true,
     "filled": 0,
     "last_days": {
-     "2026-11-12": 502,
-     "2026-11-13": 502,
-     "2026-11-16": 502,
+     "2026-11-13": 503,
+     "2026-11-16": 503,
      "2026-11-17": 503,
-     "2026-11-18": 503
+     "2026-11-18": 503,
+     "2026-11-19": 435
     }
    },
    "label": "USA",
@@ -826,411 +826,411 @@
    "currency": "USD"
   },
   "cn": {
-   "asof": "2026-11-18",
+   "asof": "2026-11-19",
    "members": 300,
    "priced": 297,
    "periods": {
     "d1": {
      "label": "Vortag",
-     "from": "2026-11-17",
-     "to": "2026-11-18",
+     "from": "2026-11-18",
+     "to": "2026-11-19",
      "gainers": [
+      {
+       "symbol": "603486.SS",
+       "name": "Ecovacs Robotics",
+       "pct": 7.66,
+       "price": 50.33
+      },
+      {
+       "symbol": "688981.SS",
+       "name": "Semiconductor Manufacturing International Corporation",
+       "pct": 6.21,
+       "price": 122.25
+      },
+      {
+       "symbol": "688012.SS",
+       "name": "Advanced Micro-Fabrication Equipment",
+       "pct": 5.05,
+       "price": 256.5
+      },
       {
        "symbol": "002916.SZ",
        "name": "Shennan Circuits",
-       "pct": 10.0,
-       "price": 201.19
+       "pct": 5.0,
+       "price": 211.24
       },
       {
-       "symbol": "300122.SZ",
-       "name": "Chongqing Zhifei Biological Products",
-       "pct": 9.75,
-       "price": 14.86
+       "symbol": "688396.SS",
+       "name": "China Resources Microelectronics",
+       "pct": 5.0,
+       "price": 48.89
       },
       {
-       "symbol": "002938.SZ",
-       "name": "Avary Holding (Shenzhen) Co",
-       "pct": 6.71,
-       "price": 45.33
+       "symbol": "600584.SS",
+       "name": "JCET",
+       "pct": 4.74,
+       "price": 55.47
       },
       {
-       "symbol": "605117.SS",
-       "name": "Ningbo Deye Technology",
-       "pct": 6.52,
-       "price": 79.76
+       "symbol": "688303.SS",
+       "name": "XinJiang Daqo New Energy",
+       "pct": 4.72,
+       "price": 17.3
       },
       {
-       "symbol": "300408.SZ",
-       "name": "Chaozhou Three-Circle",
-       "pct": 5.97,
-       "price": 66.88
+       "symbol": "688126.SS",
+       "name": "National Silicon Industry Group",
+       "pct": 3.7,
+       "price": 21.6
       },
       {
-       "symbol": "601872.SS",
-       "name": "China Merchants Energy Shipping",
-       "pct": 5.94,
-       "price": 16.05
+       "symbol": "688223.SS",
+       "name": "Jinko Solar",
+       "pct": 3.49,
+       "price": 3.86
       },
       {
-       "symbol": "601138.SS",
-       "name": "Foxconn Industrial Internet",
-       "pct": 5.68,
-       "price": 37.94
-      },
-      {
-       "symbol": "688008.SS",
-       "name": "Montage Technology",
-       "pct": 5.51,
-       "price": 137.79
-      },
-      {
-       "symbol": "688256.SS",
-       "name": "Cambricon Technologies",
-       "pct": 4.89,
-       "price": 949.0
-      },
-      {
-       "symbol": "300661.SZ",
-       "name": "SG Micro",
-       "pct": 4.26,
-       "price": 75.92
+       "symbol": "002371.SZ",
+       "name": "NAURA Technology Group",
+       "pct": 3.13,
+       "price": 592.02
       }
      ],
      "losers": [
       {
-       "symbol": "600489.SS",
-       "name": "Zhongjin Gold",
-       "pct": -7.32,
-       "price": 17.61
+       "symbol": "000977.SZ",
+       "name": "Inspur Electronic Information Industry",
+       "pct": -8.25,
+       "price": 47.04
       },
       {
-       "symbol": "000768.SZ",
-       "name": "AVIC Aircraft",
-       "pct": -6.81,
-       "price": 20.53
+       "symbol": "000938.SZ",
+       "name": "Unisplendour",
+       "pct": -7.41,
+       "price": 23.25
       },
       {
-       "symbol": "600760.SS",
-       "name": "AVIC SHENYANG AIRCRAFT COMPANY",
-       "pct": -6.69,
-       "price": 44.18
+       "symbol": "300413.SZ",
+       "name": "Mango Excellent Media",
+       "pct": -6.7,
+       "price": 26.31
       },
       {
-       "symbol": "601899.SS",
-       "name": "Zijin Mining Group",
-       "pct": -5.66,
-       "price": 24.52
+       "symbol": "600745.SS",
+       "name": "Wingtech",
+       "pct": -5.37,
+       "price": 9.52
       },
       {
-       "symbol": "688363.SS",
-       "name": "Bloomage Biotechnology Corporation",
-       "pct": -5.51,
-       "price": 31.55
+       "symbol": "603019.SS",
+       "name": "Dawning Information Industry",
+       "pct": -5.23,
+       "price": 78.33
       },
       {
-       "symbol": "600893.SS",
-       "name": "AVIC Aviation Engine Corporation",
-       "pct": -4.61,
-       "price": 33.33
+       "symbol": "688041.SS",
+       "name": "Hygon Information Technology",
+       "pct": -4.81,
+       "price": 180.0
       },
       {
-       "symbol": "688036.SS",
-       "name": "Transsion",
-       "pct": -3.9,
-       "price": 63.85
+       "symbol": "601872.SS",
+       "name": "China Merchants Energy Shipping",
+       "pct": -4.17,
+       "price": 15.38
       },
       {
-       "symbol": "300347.SZ",
-       "name": "Hangzhou Tigermed Consulting",
-       "pct": -3.83,
-       "price": 45.97
+       "symbol": "002180.SZ",
+       "name": "Ninestar Corporation",
+       "pct": -4.11,
+       "price": 14.7
       },
       {
-       "symbol": "002821.SZ",
-       "name": "Asymchem Laboratories (Tianjin)",
-       "pct": -3.76,
-       "price": 141.21
+       "symbol": "300274.SZ",
+       "name": "Sungrow Power Supply",
+       "pct": -3.47,
+       "price": 71.43
       },
       {
-       "symbol": "600547.SS",
-       "name": "Shandong Gold-Mining",
-       "pct": -3.72,
-       "price": 23.29
+       "symbol": "002241.SZ",
+       "name": "GoerTek",
+       "pct": -3.21,
+       "price": 22.0
       }
      ],
      "count": 297
     },
     "w1": {
      "label": "1 Woche",
-     "from": "2026-11-11",
-     "to": "2026-11-18",
+     "from": "2026-11-12",
+     "to": "2026-11-19",
      "gainers": [
-      {
-       "symbol": "600941.SS",
-       "name": "China Mobile",
-       "pct": 7.46,
-       "price": 107.38
-      },
       {
        "symbol": "600690.SS",
        "name": "Qingdao Haier",
-       "pct": 7.21,
-       "price": 22.6
+       "pct": 11.41,
+       "price": 23.15
       },
       {
-       "symbol": "601229.SS",
-       "name": "Bank of Shanghai",
-       "pct": 7.13,
-       "price": 8.86
+       "symbol": "688981.SS",
+       "name": "Semiconductor Manufacturing International Corporation",
+       "pct": 9.43,
+       "price": 122.25
+      },
+      {
+       "symbol": "600941.SS",
+       "name": "China Mobile",
+       "pct": 9.22,
+       "price": 107.8
+      },
+      {
+       "symbol": "603486.SS",
+       "name": "Ecovacs Robotics",
+       "pct": 9.06,
+       "price": 50.33
       },
       {
        "symbol": "601728.SS",
        "name": "China Telecom Corporation",
-       "pct": 6.95,
-       "price": 7.08
-      },
-      {
-       "symbol": "601766.SS",
-       "name": "CRRC Corporation",
-       "pct": 6.94,
-       "price": 6.78
+       "pct": 8.17,
+       "price": 7.15
       },
       {
        "symbol": "000333.SZ",
        "name": "Midea Group",
-       "pct": 6.81,
-       "price": 93.65
+       "pct": 7.98,
+       "price": 95.01
       },
       {
-       "symbol": "600674.SS",
-       "name": "Sichuan Chuantou Energy",
-       "pct": 6.8,
-       "price": 18.68
+       "symbol": "000100.SZ",
+       "name": "TCL Corporation",
+       "pct": 7.85,
+       "price": 4.81
       },
       {
-       "symbol": "600803.SS",
-       "name": "ENN Ecological Holdings",
-       "pct": 6.52,
-       "price": 22.06
+       "symbol": "603195.SS",
+       "name": "GONGNIU GROUP",
+       "pct": 7.85,
+       "price": 40.52
+      },
+      {
+       "symbol": "601766.SS",
+       "name": "CRRC Corporation",
+       "pct": 7.81,
+       "price": 6.76
       },
       {
        "symbol": "600406.SS",
        "name": "NARI Technology",
-       "pct": 6.49,
-       "price": 24.6
-      },
-      {
-       "symbol": "601009.SS",
-       "name": "Bank of Nanjing",
-       "pct": 6.25,
-       "price": 13.27
+       "pct": 7.16,
+       "price": 24.84
       }
      ],
      "losers": [
       {
-       "symbol": "300308.SZ",
-       "name": "Zhongji Innolight",
-       "pct": -26.88,
-       "price": 396.3
+       "symbol": "600745.SS",
+       "name": "Wingtech",
+       "pct": -20.67,
+       "price": 9.52
       },
       {
        "symbol": "300413.SZ",
        "name": "Mango Excellent Media",
-       "pct": -22.93,
-       "price": 28.2
+       "pct": -20.51,
+       "price": 26.31
       },
       {
        "symbol": "600183.SS",
        "name": "Shengyi Technology",
-       "pct": -20.79,
-       "price": 60.9
+       "pct": -20.37,
+       "price": 60.29
       },
       {
-       "symbol": "600745.SS",
-       "name": "Wingtech",
-       "pct": -19.33,
-       "price": 10.06
-      },
-      {
-       "symbol": "300751.SZ",
-       "name": "Suzhou Maxwell Technologies",
-       "pct": -18.27,
-       "price": 122.17
-      },
-      {
-       "symbol": "601138.SS",
-       "name": "Foxconn Industrial Internet",
-       "pct": -16.73,
-       "price": 37.94
-      },
-      {
-       "symbol": "300408.SZ",
-       "name": "Chaozhou Three-Circle",
-       "pct": -16.62,
-       "price": 66.88
+       "symbol": "300308.SZ",
+       "name": "Zhongji Innolight",
+       "pct": -19.75,
+       "price": 408.4
       },
       {
        "symbol": "300223.SZ",
        "name": "Ingenic Semiconductor",
-       "pct": -16.52,
-       "price": 95.99
+       "pct": -17.35,
+       "price": 93.67
       },
       {
-       "symbol": "300433.SZ",
-       "name": "Lens Technology",
-       "pct": -16.25,
-       "price": 24.38
+       "symbol": "300751.SZ",
+       "name": "Suzhou Maxwell Technologies",
+       "pct": -17.29,
+       "price": 122.16
       },
       {
-       "symbol": "600489.SS",
-       "name": "Zhongjin Gold",
-       "pct": -16.1,
-       "price": 17.61
+       "symbol": "000977.SZ",
+       "name": "Inspur Electronic Information Industry",
+       "pct": -15.97,
+       "price": 47.04
+      },
+      {
+       "symbol": "688008.SS",
+       "name": "Montage Technology",
+       "pct": -15.53,
+       "price": 137.6
+      },
+      {
+       "symbol": "603986.SS",
+       "name": "GigaDevice",
+       "pct": -15.47,
+       "price": 218.81
+      },
+      {
+       "symbol": "300408.SZ",
+       "name": "Chaozhou Three-Circle",
+       "pct": -15.36,
+       "price": 66.2
       }
      ],
      "count": 297
     },
     "m1": {
      "label": "1 Monat",
-     "from": "2026-10-16",
-     "to": "2026-11-18",
+     "from": "2026-10-19",
+     "to": "2026-11-19",
      "gainers": [
       {
        "symbol": "688036.SS",
        "name": "Transsion",
-       "pct": 32.69,
-       "price": 63.85
+       "pct": 27.57,
+       "price": 64.87
       },
       {
-       "symbol": "000596.SZ",
-       "name": "Anhui Gujing Distillery",
-       "pct": 27.94,
-       "price": 108.84
+       "symbol": "688981.SS",
+       "name": "Semiconductor Manufacturing International Corporation",
+       "pct": 22.62,
+       "price": 122.25
       },
       {
        "symbol": "601689.SS",
        "name": "Ningbo Tuopu Group",
-       "pct": 20.88,
-       "price": 48.11
+       "pct": 22.1,
+       "price": 49.44
       },
       {
-       "symbol": "600754.SS",
-       "name": "Shanghai Jin Jiang International Hotels",
-       "pct": 20.44,
-       "price": 21.33
+       "symbol": "000596.SZ",
+       "name": "Anhui Gujing Distillery",
+       "pct": 20.67,
+       "price": 107.4
       },
       {
        "symbol": "603501.SS",
        "name": "Will Semiconductor",
-       "pct": 20.16,
-       "price": 85.95
+       "pct": 18.92,
+       "price": 86.5
       },
       {
-       "symbol": "300413.SZ",
-       "name": "Mango Excellent Media",
-       "pct": 19.44,
-       "price": 28.2
+       "symbol": "600754.SS",
+       "name": "Shanghai Jin Jiang International Hotels",
+       "pct": 18.66,
+       "price": 21.3
       },
       {
-       "symbol": "300122.SZ",
-       "name": "Chongqing Zhifei Biological Products",
-       "pct": 18.22,
-       "price": 14.86
-      },
-      {
-       "symbol": "603019.SS",
-       "name": "Dawning Information Industry",
-       "pct": 17.27,
-       "price": 82.65
-      },
-      {
-       "symbol": "300015.SZ",
-       "name": "Aier Eye Hospital",
-       "pct": 16.41,
-       "price": 9.08
+       "symbol": "600887.SS",
+       "name": "Inner Mongolia Yili Industrial Group",
+       "pct": 18.55,
+       "price": 32.91
       },
       {
        "symbol": "601021.SS",
        "name": "Spring Airlines",
-       "pct": 15.72,
-       "price": 45.21
+       "pct": 18.14,
+       "price": 45.71
+      },
+      {
+       "symbol": "300122.SZ",
+       "name": "Chongqing Zhifei Biological Products",
+       "pct": 17.55,
+       "price": 14.67
+      },
+      {
+       "symbol": "300498.SZ",
+       "name": "Wens Foodstuff Group",
+       "pct": 16.01,
+       "price": 17.54
       }
      ],
      "losers": [
       {
        "symbol": "600183.SS",
        "name": "Shengyi Technology",
-       "pct": -46.86,
-       "price": 60.9
-      },
-      {
-       "symbol": "300308.SZ",
-       "name": "Zhongji Innolight",
-       "pct": -40.85,
-       "price": 396.3
+       "pct": -48.75,
+       "price": 60.29
       },
       {
        "symbol": "002938.SZ",
        "name": "Avary Holding (Shenzhen) Co",
-       "pct": -38.88,
-       "price": 45.33
+       "pct": -38.23,
+       "price": 44.91
+      },
+      {
+       "symbol": "300308.SZ",
+       "name": "Zhongji Innolight",
+       "pct": -38.19,
+       "price": 408.4
       },
       {
        "symbol": "002916.SZ",
        "name": "Shennan Circuits",
-       "pct": -35.1,
-       "price": 201.19
+       "pct": -30.09,
+       "price": 211.24
       },
       {
        "symbol": "300408.SZ",
        "name": "Chaozhou Three-Circle",
-       "pct": -31.18,
-       "price": 66.88
+       "pct": -29.89,
+       "price": 66.2
       },
       {
        "symbol": "600745.SS",
        "name": "Wingtech",
-       "pct": -26.68,
-       "price": 10.06
+       "pct": -26.94,
+       "price": 9.52
       },
       {
        "symbol": "600362.SS",
        "name": "Jiangxi Copper",
-       "pct": -24.12,
-       "price": 29.92
+       "pct": -24.79,
+       "price": 29.4
       },
       {
        "symbol": "603993.SS",
        "name": "China Molybdenum",
-       "pct": -23.71,
-       "price": 12.13
+       "pct": -22.94,
+       "price": 11.89
       },
       {
        "symbol": "603986.SS",
        "name": "GigaDevice",
-       "pct": -22.1,
-       "price": 219.56
+       "pct": -22.53,
+       "price": 218.81
       },
       {
-       "symbol": "600176.SS",
-       "name": "CHINA JUSHI",
-       "pct": -21.83,
-       "price": 26.5
+       "symbol": "000877.SZ",
+       "name": "Xinjiang Tianshan Cement",
+       "pct": -21.05,
+       "price": 2.85
       }
      ],
      "count": 297
     }
    },
    "diag": {
-    "now_local": "2026-11-19T13:37+08:00",
+    "now_local": "2026-11-20T13:38+08:00",
     "session_open": true,
     "filled": 0,
     "last_days": {
-     "2026-11-13": 297,
      "2026-11-16": 297,
      "2026-11-17": 297,
      "2026-11-18": 297,
-     "2026-11-19": 297
+     "2026-11-19": 297,
+     "2026-11-20": 297
     }
    },
    "label": "China",
